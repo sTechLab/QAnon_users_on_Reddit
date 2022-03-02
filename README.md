@@ -151,7 +151,7 @@ User status:\
 ### Subreddit_Cluster_Map.csv
 
 #### Key Stats
-* 915 unique sampled subreddits
+915 unique sampled subreddits
 
 #### Column Information
 |Column              | Data Type       | Definition       |
@@ -181,9 +181,9 @@ RQ3_Labelling Results_RQ3-Submission Labelling Results - sympathetic-unconstrict
 RQ3_Labelling Results_RQ3-Submission Labelling Results - unrelated-unrelated.csv  
 
 #### Key Stats
-1,571 unique sampled submissions
-across 11 combinations of 6 relation labels and 9 topic labels
-coding for 7 harmful content labels
+1,571 unique sampled submissions  
+&emsp; across 11 combinations of 6 relation labels and 9 topic labels  
+&emsp; coding for 7 harmful content labels
 
 #### Column Information
 |Column              | Data Type       | Definition       |
@@ -202,5 +202,5 @@ coding for 7 harmful content labels
 #### Sample
 |    | subreddit    | title                                                                                                                                                                                                                                                                                                        |   text | date_created        | url                                                                                                                                                       | Reconcile Code1      | Reconcile Code2    |   Reconcile Code3 |   Reconcile Code4 | Source              |
 |---:|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------:|:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:-------------------|------------------:|------------------:|:--------------------|
-|  0 | tulsi        | "Why I’m asking Tom Perez to resign | Under the leadership of Tom Perez, the DNC has kowtowed to billionaires, caused a debacle in Iowa, and undermined the voter’s trust in our elections. The American people are understandably feeling confused and disheartened by a process that should be empowering" |    nan | 2020-02-09 22:36:14 | https://www.tulsi2020.com/petition/tom-perez                                                                                                              | Negative Interaction | nan                |               nan |               nan | Source inaccessible |
-|  1 | JusticeVsGOP | Trump’s alleged attempts to force Ukraine to meddle in 2020 election being investigated                                                                                                                                                                                                                      |    nan | 2019-09-09 23:14:30 | https://www.independent.co.uk/news/world/americas/us-politics/trump-ukraine-2020-election-house-committee-impeachment-a9098126.html?utm_source=reddit.com | Unrelated            | Low-quality Source |               nan |               nan | nan                 |
+|  0 | tulsi        | "Why I’m asking Tom Perez to resign | Under the leadership of Tom Perez, the DNC has kowtowed to billionaires, caused a debacle in Iowa, and undermined the voter’s trust in our elections. The American people are understandably feeling confused and disheartened by a process that should be empowering" | 2020-02-09 22:36:14 | https://www.tulsi2020.com/petition/tom-perez                                                                                                              | Negative Interaction | nan                |               nan |               nan | Source inaccessible |
+|  1 | JusticeVsGOP | Trump’s alleged attempts to force Ukraine to meddle in 2020 election being investigated                                                                                                                                                                                                                      |    nan | 2019-09-09 23:14:30 | https://www.independent.co.uk/news/world/americas/us-politics/trump-ukraine-2020-election-house-committee-impeachment-a9098126.html?utm_source=reddit.com | Unrelated            | Low-quality Source |               nan |               nan |                     |
