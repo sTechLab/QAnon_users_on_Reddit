@@ -1,6 +1,6 @@
 # QReddit Analysis
 
-This repository contains the code behind the analysis in the "Characterizing Reddit Participation of Users who Engage in the QAnon Conspiracy Theories" paper (CSCW '22).
+This repository contains the code behind the analysis in the "Characterizing Reddit Participation of Users who Engage in the QAnon Conspiracy Theories" paper (CSCW '22). The data is located [here](https://figshare.com/articles/dataset/Datasets_for_QAnon_on_Reddit_research_project_/19251581).
 
 ## File locations
 * Input data can be found in the inputFiles folder. 
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Input data 
-### inputFiles/Hashed_Q_Submissions_Raw_Combined.csv
+### Hashed_Q_Submissions_Raw_Combined.csv
 
 #### Key Stats
 **2,099,875** unique submissions\
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 |  0 | greatawakening | 8xuv4i |       1 |           14 | 879f283b831c13474e219e88663d95b0763cca9b | I’ve been writing “Trump Lives Here” on my $20’s after seeing the stamp idea advertised, but seeing this posted again gave me a better idea...going to start writing #QANON or #GreatAwakening on all my bills now! |    nan | False     | i.redd.it | https://i.redd.it/h3mbbxvxq7911.jpg | /r/greatawakening/comments/8xuv4i/ive_been_writing_trump_lives_here_on_my_20s_after/ |             -1 | 2018-07-11 00:27:24 |
 |  1 | greatawakening | 8ydw3e |       1 |           13 | 879f283b831c13474e219e88663d95b0763cca9b | Trying to take him seriously but...                                                                                                                                                                                 |    nan | False     | i.redd.it | https://i.redd.it/62gaw0th4l911.jpg | /r/greatawakening/comments/8ydw3e/trying_to_take_him_seriously_but/                  |             -1 | 2018-07-12 21:26:32 |
 
-### inputFiles/Hashed_Q_Comments_Raw_Combined.csv
+### Hashed_Q_Comments_Raw_Combined.csv
 
 #### Key Stats
 **10,831,922** unique comments\
@@ -70,7 +70,7 @@ Column              | Data Type       | Definition       |
 |  0 | e0mztbn | t3_8qy7gp | t3_8qy7gp   | 182c774799aac38a84f5117fc59cde99b0df19af | greatawakening | My account is new because i lost my password to my last account                                                                                        | 2018-06-14 02:17:37 |
 |  1 | e0n0e9q | t3_8qy9wy | t3_8qy9wy   | 182c774799aac38a84f5117fc59cde99b0df19af | greatawakening | new account only because i lost the password to my old account. you can see my post history at JaM0k3 if you doubt my authenticity and genuine concern | 2018-06-14 02:28:21 |
 
-### inputFiles/Hashed_allAuthorStatus.csv
+### Hashed_allAuthorStatus.csv
 
 #### Key Stats
 **13,182** users\
@@ -95,7 +95,7 @@ User status:\
 |  0 | aa65b7dd5d5fa660d058e094669f884bf7d52299 | 0 | Active |
 |  1 | 2b1505f289338751829dfa129c0b52d145c9eceb | 1 | Active | 
 
-### inputFiles/Hashed_subredditStats.csv
+### Hashed_subredditStats.csv
 
 #### Key Stats
 **12,987** unique subreddits
@@ -148,7 +148,7 @@ User status:\
 |  0 | Watches     |      1.52524e+06 | public   | ['f1c355408b78fd88ebc13aade4c9a7924005c2ab','e8ba168935c0aaf4c836f754134ab7ce2af1cb78','3d24107f83da2c1b164f9ef6056534c411a014c5','4761651055cbc095f958408c130db085207d94f0','2f3685e3246480acf62db4fa47134136abb72fa8','e91b7152b521a4c2ee38d40b4269db6ed3a4a864','733a3079682a418d3ac0a0082a1c73c82426ab64','f07a25e26c9be732c6a8e0baeb259de0012db9c0','5324eebc18306707d97d9a20cf7ab0d333a852f6','1a2ab94f2a57af66faaf6c6cc1c2aedfbf7adeaf','1bfb0b9d4f7209ceeb0fd8a41032dc03dc270d55','beb0c1ef7acd0d2c116eb53afe5e9c6466268087','b6b4b8c71fbbf8e56cbffdaa2909cbe4d23c6e25']                                                                                                                                                                                                                                                                                                              |        13 | []          |       0 | []              |           0 | 2016-12-07 03:21:16   | 2020-11-27 19:24:49  | 2016-11-26 13:24:54 | 2021-01-22 18:22:43 |            0 |                0 |                  0 |            1 |               1 |      58 |          10 |            219 |                 99 |                   120 |        1681 |             244 |               1437 |           0.29 |       0.44 |                         2881.38 |                             5911.85 |                      1.2     |                             2.4  |                         3.75    |                             6       |          0.0405965 |      0.0416466 |              0.101491 |          0.130146 |
 |  1 | MMA         |      1.51845e+06 | public   | ['69e403df92bb49af60d5046c0be60f1a46bfd53d','db2bc6d4901d4b045b6106f6d8fa05d39d7299bc','e6a27fb7e49c024a93e255f6aebf7d050286d555','662214643ba4236170bdd0930c3960aec957eccc','346dc08bbb0aba36e747eed2c60f71ed2421b801','42af3024c512b1570e9b18d14e489ea1aabc5289','ad60ae7a9dd74661af165743cc541e9a643d5653','9e165e1ea288ea76cc543606b60158297f53189c','8b1895f2ab3dd2937e57df3dfbd0a0f2722d22a6','a811e14d7aca9db33a0741e9b3ac224674a3678d','814f2b241069c14efd6505e3e6608fd6bd0e5837','20753b7f572e0d6a003037e751fc755fc2a69e7b','9ad716f0c5f5346b6bd5f9d25028f581a202f5d6','86294814dcd22c5c6ec366f986261825204f7d3b','e735ba8c261225c06427c4141ae52e3ccd63d069','64c14242cc4aba563a93ad72c2d27caa94c3f5d4','5c547518bd4db19ca4d04acbf7801e2d803bf3eb','19ec300a4b3eb3a65a7091dfec4618fe02a53caa','67d7a0de2ae09727ef61f0720e40125e555dd56a','8955818d50a9bcc9bca0877413fb030ba9452e3a'] |        20 | []          |       0 | []              |           0 | 2016-11-01 05:51:55   | 2021-01-03 00:43:44  | 2016-10-28 00:39:15 | 2021-01-23 08:16:57 |            0 |                0 |                  0 |            1 |               1 |      97 |          29 |            371 |                 99 |                   272 |       18910 |            2808 |              16102 |           0.83 |       0.74 |                         1840.46 |                             4953.46 |                      2.91667 |                             4.75 |                         6.38462 |                             9.92308 |          0.0958925 |      0.158475  |              0.200326 |          0.346903 |
 
-### inputFiles/Subreddit_Cluster_Map.csv
+### Subreddit_Cluster_Map.csv
 
 #### Key Stats
 * 915 unique sampled subreddits
@@ -166,3 +166,41 @@ User status:\
 |---:|:------------|:--------------|:-----------------------|:--------------------------|
 |  0 | 2070vids    | ['unrelated'] | ['unrelated']          | ['unrelated']             |
 |  1 | 3Dprinting  | ['unrelated'] | ['unrelated']          | ['unrelated']             |
+
+### RQ3_LabellingResults (folder)
+RQ3_Labelling Results_RQ3-Submission Labelling Results - QAnon-QAnon narrative.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-aligned-the unseen or unknown (1).csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-aligned-unconstricted behavior.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-misaligned-constricted behavior.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-misaligned-politics - Trump opposing.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-neutral-current events.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - related-neutral-politics - Trump alignment unknown.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - sympathetic-politics - Trump supporting.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - sympathetic-the unseen or unknown.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - sympathetic-unconstricted behavior.csv  
+RQ3_Labelling Results_RQ3-Submission Labelling Results - unrelated-unrelated.csv  
+
+#### Key Stats
+1,571 unique sampled submissions
+across 11 combinations of 6 relation labels and 9 topic labels
+coding for 7 harmful content labels
+
+#### Column Information
+|Column              | Data Type       | Definition       |
+|:----------------|:--------|:-------|
+| subreddit       | object  | sampled subreddit name|
+| title           | object  | submission title|
+| text            | object  | submission selftext|
+| date_created    | object  | submission creation date-time group (UTC)|
+| url             | object  | full url link for submission, if no url then submission permalink|
+| Reconcile Code1 | object  | qualitative codes for listed submission (n of 7)|
+| Reconcile Code2 | object  | qualitative codes for listed submission (n of 7)|
+| Reconcile Code3 | object  | qualitative codes for listed submission (n of 7)|
+| Reconcile Code4 | object  | qualitative codes for listed submission (n of 7)|
+| Source          | object  | if applicable: Source inaccessible, Youtube news commentary, Mischaracterization of fact|
+
+#### Sample
+|    | subreddit    | title                                                                                                                                                                                                                                                                                                        |   text | date_created        | url                                                                                                                                                       | Reconcile Code1      | Reconcile Code2    |   Reconcile Code3 |   Reconcile Code4 | Source              |
+|---:|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------:|:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:-------------------|------------------:|------------------:|:--------------------|
+|  0 | tulsi        | "Why I’m asking Tom Perez to resign | Under the leadership of Tom Perez, the DNC has kowtowed to billionaires, caused a debacle in Iowa, and undermined the voter’s trust in our elections. The American people are understandably feeling confused and disheartened by a process that should be empowering" |    nan | 2020-02-09 22:36:14 | https://www.tulsi2020.com/petition/tom-perez                                                                                                              | Negative Interaction | nan                |               nan |               nan | Source inaccessible |
+|  1 | JusticeVsGOP | Trump’s alleged attempts to force Ukraine to meddle in 2020 election being investigated                                                                                                                                                                                                                      |    nan | 2019-09-09 23:14:30 | https://www.independent.co.uk/news/world/americas/us-politics/trump-ukraine-2020-election-house-committee-impeachment-a9098126.html?utm_source=reddit.com | Unrelated            | Low-quality Source |               nan |               nan | nan                 |
