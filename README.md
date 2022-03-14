@@ -1,6 +1,6 @@
 # QReddit Analysis
 
-This repository contains the code behind the analysis in the "Characterizing Reddit Participation of Users who Engage in the QAnon Conspiracy Theories" paper (CSCW '22). The data is located [here](https://figshare.com/articles/dataset/Datasets_for_QAnon_on_Reddit_research_project_/19251581).
+This repository contains the code behind the analysis in the "Characterizing Reddit Participation of Users who Engage in the QAnon Conspiracy Theories" paper (CSCW '22). The data are located [here](https://figshare.com/articles/dataset/Datasets_for_QAnon_on_Reddit_research_project_/19251581).
 
 ## File locations
 * Input data can be found in the inputFiles folder. 
